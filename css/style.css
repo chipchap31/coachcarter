@@ -53,32 +53,11 @@ h4{
     max-width: 90%;
     margin: 0 auto;
 }
+/************** HEADER **************************/
 header{
     padding: 10px 0;
     background-color: #9f8b7a;
 }
-
-header .inner{
-    justify-content: space-between;
-}
-header .logo{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-header .logo img{
-    float: left;
-}
-header .logo span{
-    font-size: 2em;
-    text-transform: capitalize;
-    border-bottom: 1px solid white;
-}
-header .logo p{
-    margin-top: 3px;
-    text-transform: capitalize;
-}
-
 header nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
@@ -93,6 +72,50 @@ header nav .flex {
     height: 100%;
     align-items: center;
 }
+/************** FOOTER **************************/
+footer{
+    background-color: #9f8b7a;
+    padding: 50px 0;
+}
+footer ul li:not(:first-child){
+    margin-top: 1em;
+}
+footer .box ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    
+}
+footer .box small{
+    color: white;
+}
+footer .box ul li:hover a{
+    text-decoration: underline;
+}
+.inner{
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.logo img{
+    float: left;
+}
+.logo span{
+    font-size: 2em;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+.logo p{
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+
+
+
 .button{
     padding: 15px 25px;
    
@@ -101,7 +124,7 @@ header nav .flex {
     color: white;
 }
 
-
+/************** END **************************/
 
 #landing .inner{
     align-items: center;
@@ -132,7 +155,7 @@ header nav .flex {
 
 
 
-
+/************** END **************************/
 
 
 
@@ -173,7 +196,7 @@ header nav .flex {
     background-color: #9f8b7a;
 }
 
-
+/************** END **************************/
 
 #redirect{
     background-size: cover;
@@ -194,6 +217,7 @@ header nav .flex {
 }
 
 
+/************** END **************************/
 
 
 #more_info {
@@ -203,7 +227,7 @@ header nav .flex {
     justify-content: space-between;
 }
 #more_info  .dta:nth-child(1){
-    max-width: 400px;
+    max-width: 450px;
 }
 #more_info  .dta:nth-child(1) img{
     height: 85;
@@ -214,7 +238,9 @@ header nav .flex {
 #more_info  .dta:nth-child(1) .flex{
     justify-content: space-between;
 }
-
+#more_info  .dta:nth-child(1) .dta-inner i {
+    color: #4267b2;
+}
 #more_info .dta h2{
     position: relative;
     text-indent: 1em;
