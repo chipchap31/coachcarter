@@ -47,8 +47,14 @@ h4{
     max-width: 90%;
     margin: 0 auto;
 }
-.dta-centered{
+.centered{
     justify-content: center;
+}
+.middle{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
 }
 /************** HEADER **************************/
 header{
