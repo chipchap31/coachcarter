@@ -319,3 +319,20 @@ footer .inner{
 #more_info .dta{
     margin: 0 1em;
 }
+
+
+@media only screen and (max-width: 606px){
+     header .logo span,
+    .logo p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 458px){
+    header nav .flex{
+        display: none;
+    }
+    
+    #menuToggle span{
+        display: block;
+    }
+}
