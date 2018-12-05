@@ -209,3 +209,24 @@ html body div.wrapper section#contact div.inner div.flex div#googleMap{
   width: 350px;
   border-radius: 10px;
 }
+
+
+
+
+@media only screen and (max-width: 890px){
+    #contact .inner .flex {
+        flex-direction: column;
+       
+
+    }
+    html body div.wrapper section#contact div.inner div.flex div#googleMap{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #contact .inner form .flex {
+        
+        justify-content: center;
+       width: 100%;
+        flex-direction: column;
+    }
+}
