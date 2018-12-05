@@ -1,4 +1,3 @@
-
 *,*::before, *::after{
     box-sizing: border-box;
 }
@@ -56,18 +55,19 @@ h4{
     margin: 2em auto;
    
 }
+.space-between{
+    justify-content: space-between;
+}
 .inner{
     max-width: 90%;
     margin: 0 auto;
 }
-.centered{
-    justify-content: center;
-}
 .middle{
     align-items: center;
+
 }
-.space-between{
-    justify-content: space-between;
+.centered{
+    justify-content: center;
 }
 /************** HEADER **************************/
 header{
@@ -164,158 +164,4 @@ footer .inner{
 .button:hover{
     box-shadow: 4px 4px 10px grey;
 
-}
-
-/************** END **************************/
-
-#landing .inner{
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em 0;
-}
-#landing .dta:nth-child(1) h1{
-    color: #1c1c1c;
-    margin: 10px 0;
-}
-#landing .dta:nth-child(1) span{
-    font-weight: 700;
-    font-size: 1.1em;
-    color: #9f8b7a;
-}
-#landing .dta:nth-child(1) p{
-   max-width: 350px;
-   color: grey;
-   line-height: 20px;
-}
-#landing .dta:nth-child(1) .button{
-    margin-top: 2em;
-}
-#landing .dta:nth-child(2) img{
-    width: 270px;
-    height: 376px;;
-}
-
-
-
-
-/************** END **************************/
-
-
-
-
-
-#about{
-    justify-content: center;
-    padding: 3em 0;
-}
-#about .dta{
-    padding: 120px 60px 120px 180px;
-    box-shadow: 7px 7px 10px grey;
-    display: inline-block;
-    background-color: white;
-
-}
-#about .dta p{
- max-width: 500px;
- color: grey;
- margin-top: 2em;
- line-height: 22px;
-}
-
-#about .button{
-    margin-top: 1.5em;
-   
-}
-
-
-/************** END **************************/
-
-
-#gallery{
-    padding: 100px 0;
-}
-#gallery img{
-    height: 370px;
-    width: 250px;
-    
-}
-#gallery .dta{
-    justify-content: space-between;
-    padding: 50px 0;
-}
-#gallery .button{
-    margin: 0 auto;
-}
-
-
-
-
-
-/************** END **************************/
-
-#redirect{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../imgs/Home_03.jpg');
-    color: white;
-    padding: 20px 0;
-}
-#redirect h4{
-    color: white;
-}
-#redirect .inner {
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-/************** END **************************/
-
-
-#more_info {
-    padding: 100px 0;
-}
-#more_info .inner{
-    justify-content: space-between;
-}
-
-#more_info  .dta:nth-child(1),
-#more_info  .dta:nth-child(2)
-{
-    width: 450px;
-}
-#more_info  .dta:nth-child(1) img{
-    height: 85;
-    width: 92px;
-    float: left;
-    margin-right: 10px;
-}
-#more_info  .dta:nth-child(1) .flex{
-    justify-content: space-between;
-}
-#more_info  .dta:nth-child(1) .dta-inner p{
-    color: grey;
-    margin-top: 10px;
-}
-
-#more_info .dta:nth-child(1) .dta-inner{
-    padding-top: 1em;
-}
-
-#more_info .dta:nth-child(2) i{
-    font-size: 1em;
-    margin-right: 12px;
-    color: #d7853f;
-    float: left;
-}
-#more_info .dta:nth-child(2) ul li{
-    margin-bottom: 3em;
-    font-size: 1.1em;
-    
-}
-#more_info .dta:nth-child(2) ul{
-    padding-top: 1em;
-}
-#more_info .dta{
-    margin: 0 1em;
 }

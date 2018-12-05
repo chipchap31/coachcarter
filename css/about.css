@@ -16,6 +16,19 @@ h1{
 }
 h2{
     font-size: 2em;
+    position: relative;
+    text-indent: 1em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+h2::before{
+    content: '';
+    height: 60px;
+    width: 20px;
+    position: absolute;
+    left: -0.01em;
+    top: -0.3em;
+    background-color: #9f8b7a;
 }
 h3{
     font-size: 1.8em;
@@ -165,4 +178,12 @@ footer .inner{
 #about p{
     color: grey;
     max-width: 450px;
+    line-height: 24px;
+}
+
+
+@media only screen and (max-width: 870px) {
+    #about .inner {
+        flex-direction: column;
+    }
 }
