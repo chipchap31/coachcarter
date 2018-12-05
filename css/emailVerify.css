@@ -169,60 +169,21 @@ footer .inner{
     
 
 }
-.facebook-button, 
-.google-button{
-    border: none;
-    padding: 10px 25px;
-    color: white;
-    cursor: pointer;
-    transition: 200ms;
-    
+#emailSent{
+    padding: 100px;
 }
-.facebook-button:hover,
-.google-button:hover{
-    box-shadow: 4px 4px 10px grey;
-}
-.facebook-button{
-    background-color: #39589D;
-   
-}
-.google-button{
-    background-color: #d84720;
-}
-.google-button i,
-.facebook-button i{
-   
-    margin-right: 5px;
-}
-#form-mock .button,#form-mock .facebook-button,.google-button{
-    margin-top: 1em;
-    
-}
-#form-mock{
-    padding: 50px 0;
-}
-
-#form-mock .dta:nth-child(2){
-    padding: 140px 70px;
-    border-left: solid grey 1px;
-}
-
-#form-mock form .dta-inner{
+#emailSent .inner .dta {
     flex-direction: column;
-    width: 400px;
 }
-#form-mock form label {
-    font-size: 18px;
-    text-transform: capitalize;
-    margin-bottom: 5px;
+#emailSent p{
+    margin: 10px 0;
 }
-#form-mock form input{
-    height: 40px;
-    text-indent: 5px;
-    margin-bottom: 16px;
-    background-color: #d1cac4;
-    border: none;
+#email{
+    border: 1px solid #d7853f;
+   
+    padding: 10px;
+    
 }
-#form-mock .dta:nth-child(2) h3 {
-    margin-bottom: 1em;
+#emailSent .button{
+margin-top: 2em;
 }
