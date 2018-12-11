@@ -1,0 +1,166 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: inherit;
+}
+p,span{
+    font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #1c1c1c;
+}
+h1{
+    font-size: 2.8em;
+}
+h2{
+    font-size: 2em;
+    position: relative;
+    text-indent: 1em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+h2::before{
+    content: '';
+    height: 60px;
+    width: 20px;
+    position: absolute;
+    left: -0.01em;
+    top: -0.3em;
+    background-color: #9f8b7a;
+}
+h3{
+    font-size: 1.8em;
+}
+h4{
+    font-size: 1.6em;
+}
+.flex {
+    display: flex;
+}
+.background{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('../imgs/court.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+.wrapper{
+    background-color: #eee;
+    max-width: 950px;
+    margin: 2em auto;
+   
+}
+.inner{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.centered{
+    justify-content: center;
+}
+.middle{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+/************** HEADER **************************/
+header{
+    padding: 10px 0;
+    background-color: #7F5837;
+}
+header .inner{
+    justify-content: space-between;
+}
+header nav ul li {
+    position: relative;
+    padding: 10px 0;
+    margin-right: 1em;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    display: block;
+    
+    font-size: 18px;
+}
+header nav ul li::before{
+    content: '';
+    background-color: #d7853f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: 200ms ease-in-out;
+}
+header nav ul li:hover::before{
+    width: 100%;
+}
+
+header nav .flex {
+    height: 100%;
+    align-items: center;
+}
+/************** FOOTER **************************/
+footer{
+    background-color: #7F5837;
+    padding: 50px 0;
+}
+footer ul li:not(:first-child){
+    margin-top: 1em;
+}
+footer  ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    
+}
+footer .dta small{
+    color: white;
+}
+footer ul li:hover a{
+    text-decoration: underline;
+}
+footer .inner{
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.logo img{
+    float: left;
+}
+.logo span{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+.logo p{
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+
+
+
+.button{
+    padding: 15px 25px;
+    transition: 200ms;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #d7853f;
+}
+.button:hover{
+    box-shadow: 4px 4px 10px grey;
+
+}
