@@ -21,6 +21,10 @@ Note: I assume that you have git already installed on your computer.
 
 You're all set!
 
+To see the website live visit https://chipchap31.github.io/coachcarter/
+
+Note that this site does not collect any data. A session storage is implemented after you have registered at membership.html and your email will be unset after you close your browsing tab.
+
 
 
 
