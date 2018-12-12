@@ -254,6 +254,9 @@ footer .inner{
     text-decoration: none;
     color: white;
 }
+#gallery .dta .img-overlay .facebook:hover{
+    background-color: #26498f;
+}
 #gallery .dta .img-overlay .view{
     opacity: 0;
     margin-top: 20px;

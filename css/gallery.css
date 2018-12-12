@@ -199,6 +199,9 @@ footer .inner{
     text-decoration: none;
     color: white;
 }
+#gallery .dta .img-overlay .facebook:hover{
+    background-color: #26498f;
+}
 #gallery .dta .img-overlay .facebook i{
     margin-right: 5px;
 }
