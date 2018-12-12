@@ -164,3 +164,62 @@ footer .inner{
     box-shadow: 4px 4px 10px grey;
 
 }
+
+
+
+#gallery{
+    padding: 100px 0;
+}
+#gallery .dta{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gallery .dta img{
+    display: block;
+}
+#gallery .dta .img-container{
+    position: relative;
+    margin: 20px 0;
+}
+#gallery .dta .img-overlay{
+    height: 100%;
+    width: 0;
+    position: absolute;
+    background-color: #d7853f;
+    opacity: 0.8;
+    transition: 200ms;
+    flex-direction: column;
+}
+
+#gallery .dta .img-overlay .facebook{
+    opacity: 0;
+    background-color: #4267b2;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+#gallery .dta .img-overlay .facebook i{
+    margin-right: 5px;
+}
+#gallery .dta .img-overlay .view{
+    opacity: 0;
+    margin-top: 20px;
+}
+#gallery .dta .img-overlay .view i{
+    font-size: 32px;
+    color: white;
+}
+#gallery .dta .img-overlay .view i:hover{
+    color: grey;
+}
+.hovering .img-overlay{
+    width: 100% !important;
+}
+.hovering .img-overlay a{
+    opacity: 1 !important;
+}
+
+#gallery .button{
+    margin-top: 50px;
+}
