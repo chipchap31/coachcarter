@@ -56,10 +56,13 @@ h4{
     margin: 2em auto;
    
 }
+
 .inner{
     max-width: 90%;
     margin: 0 auto;
+    
 }
+
 .centered{
     justify-content: center;
 }
@@ -197,7 +200,6 @@ footer .inner{
 
 
 
-
 /************** END **************************/
 
 
@@ -227,7 +229,9 @@ footer .inner{
    
 }
 
-
+@media only screen and (max-width: 375px){
+   
+}
 /************** END **************************/
 
 
@@ -367,10 +371,104 @@ footer .inner{
 }
 
 
+
+/* media query for iphone 6/7/8 */
+@media only screen and (max-width: 375px){
+    #landing{
+        height: 90vh;
+        align-items: center;
+    }
+    #landing .dta:nth-child(2){
+        display: none;
+    }
+    #landing .inner{
+        align-items: center;
+
+        justify-content: space-between;
+
+        padding-top: 150px;
+    }
+    #landing .dta:nth-child(1) .button{
+        margin-top: 2em;
+        margin: 2em auto;
+    }
+  
+    #about .dta{
+        padding:100px 50px;
+    }
+    #gallery .dta{
+        flex-direction: column;
+    }
+    #gallery img{
+        width: 100%;
+    }
+    #gallery .dta .img-container{
+        margin: 20px 0;
+    }
+    #redirect{
+        display: none;
+    }
+    #more_info .inner{
+        flex-direction: column;
+    }
+    #more_info  .dta:nth-child(1) img{
+        float: none;
+        margin: 0;
+    }
+    #more_info  .dta:nth-child(1),
+#more_info  .dta:nth-child(2)
+{
+    width: 100%;
+   
+}
+#more_info  .dta:nth-child(2){
+    margin-top: 50px;
+}
+#more_info  .dta:nth-child(1) .dta-inner{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+#more_info  .dta:nth-child(1) .dta-inner p{
+    text-align: center;
+}
+#more_info  .dta:nth-child(1) .dta-inner h4{
+    margin-top: 10px;
+}
+#more_info .dta:nth-child(2) ul li i {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#more_info .dta:nth-child(2) ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    margin: 20px auto;
+}
+#more_info .dta{
+    margin: 0;
+}
+}
+
+
+
+/* global media query*/
+
+
 @media only screen and (max-width: 606px){
+    header{
+        height: 10vh;
+    }
+    
      header .logo span,
     .logo p{
         display: none;
+    }
+    .wrapper{
+        margin: 0 auto;
+        max-width: 100%;
     }
 }
 @media only screen and (max-width: 458px){
@@ -382,3 +480,4 @@ footer .inner{
         display: block;
     }
 }
+
